@@ -13,11 +13,11 @@
 # Resources
 
 * [Download 8th Wall XR for Unity](https://releases.8thwall.com/xr/unity/release)
-* <a href='https://docs.8thwall.com/xr/unity/' target='_blank'>Documentation</a>
-* <a href='https://www.8thwall.com' target='_blank'>8th Wall Website</a>
+* [Documentation](https://docs.8thwall.com/xr/unity/)
+* [8th Wall Website](https://www.8thwall.com)
 
 # Sample Unity Projects
 
-* [Sample 8th Wall XR app](https://github.com/8thwall/xr-unity/projects/8thWallXR-SampleApp.unityproject) - A simple unity scene containing a table with a TV on top of it. Use as a base project to AR-enable after downloading the 8th Wall XR unity package.
+* [Sample 8th Wall XR app](https://github.com/8thwall/xr-unity/blob/master/projects/8thWallXR-SampleApp.unitypackage?raw=true) - A simple unity scene containing a table with a TV on top of it. Use as a base project to AR-enable after downloading the 8th Wall XR unity package.
 
 # Tutorial
