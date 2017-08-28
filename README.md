@@ -12,7 +12,7 @@
 
 # Resources
 
-* [Download 8th Wall XR for Unity](https://releases.8thwall.com/xr/unity/release)
+* [Download 8th Wall XR for Unity](https://releases.8thwall.com/xr/unity/download/release)
 * [Documentation](https://docs.8thwall.com/xr/unity/)
 * [8th Wall Website](https://www.8thwall.com)
 
