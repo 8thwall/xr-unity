@@ -6,7 +6,6 @@
 
 - [Resources](#resources)
 - [Projects](#sample-unity-projects)
-- [Tutorial](#tutorial)
 
 - - -
 
@@ -18,6 +17,4 @@
 
 # Sample Unity Projects
 
-* [Sample 8th Wall XR app](https://github.com/8thwall/xr-unity/blob/master/projects/8thWallXR-SampleApp.unitypackage?raw=true) - A simple unity scene containing a table with a TV on top of it. Use as a base project to AR-enable after downloading the 8th Wall XR unity package.
-
-# Tutorial
+* [Sample 8th Wall XR app](https://github.com/8thwall/xr-unity/blob/master/projects/8thWallXR-Sample/8thWallXR-SampleApp.unitypackage?raw=true) - A simple unity scene containing a table with a TV on top of it. Use as a base project to AR-enable after downloading the 8th Wall XR unity package.
