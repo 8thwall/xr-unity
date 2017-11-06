@@ -19,3 +19,6 @@
 
 * [Sample 8th Wall XR app](https://github.com/8thwall/xr-unity/tree/master/projects/8thWallXR-Sample) - A simple unity scene containing a table with a TV on top of it. Use as a base project to AR-enable after downloading the 8th Wall XR unity package.
 
+# Scripts
+
+* [SunlightController.cs](https://github.com/8thwall/xr-unity/tree/master/scripts/SunlightController.cs) - A script that controls the rotation of a Directional Light in your scene based on the position of the sun. Makes AR shadows look more realistic by aligning their direction with real world shadows outside.
