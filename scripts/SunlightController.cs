@@ -5,20 +5,19 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class SunlightController : MonoBehaviour {
 
-	// How often the sun's Altitude/Azumuth be recalculated (seconds)
-	public int shadowRefreshSeconds = 60;
+  // How often the sun's Altitude/Azumuth be recalculated (seconds)
+  public int shadowRefreshSeconds = 60;
 
   private double lat, lon;
-	private double sunAltitude, sunAzimuth;
-	private float initialNorthOffset = 0;
+  private double sunAltitude, sunAzimuth;
+  private float initialNorthOffset = 0;
 
 	IEnumerator Start () {
 
-		// Enable the mobile device GPS and compass
+    // Enable the mobile device GPS and compass
 		Input.location.Start(); 
 		Input.compass.enabled = true;
 
