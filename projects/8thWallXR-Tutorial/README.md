@@ -33,7 +33,7 @@ Open Unity and on the welcome screen, click "New" to create a new project.  Give
 
 ## Download the sample Unity app
 
-[Download](https://github.com/8thwall/xr-unity/blob/master/projects/8thWallXR-Sample/8thWallXR-SampleApp.unitypackage?raw=true) the sample 8th Wall XR enabled Unity project
+[Download](https://github.com/8thwall/xr-unity/blob/master/projects/8thWallXR-Tutorial/8thWallXR-TutorialApp.unitypackage?raw=true) a sample Unity project to augment with 8th Wall XR.
 
 Double click on the .unitypackage file downloaded, and import all of the objects into the Unity project.  This sample application contains a simple scene (called "Main") consisting of a TV sitting on a table::
 
@@ -43,11 +43,11 @@ Double click on the .unitypackage file downloaded, and import all of the objects
 
 The 8th Wall XR Unity package is available here:
 
-<a href='https://releases.8thwall.com/xr/unity/download/release' target='_blank'>https://releases.8thwall.com/xr/unity/download/release</a>
+<a href='https://www.8thwall.com/#unity' target='_blank'>https://www.8thwall.com/#unity</a>
 
 ## Install XR
 
-Add 8th Wall XR to your Unity project.  Locate the .unityplugin file you just downloaded and simply double-click on it.  A progress bar will appear as it's loaded.
+Add 8th Wall XR to your Unity project.  Locate the xr-<version>.unityplugin file you just downloaded and simply double-click on it.  A progress bar will appear as it's loaded.
 
 Once finished, a window will display the contents of the XR package.  Leave all of the boxes checked and click "Import".
 
