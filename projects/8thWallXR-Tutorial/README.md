@@ -1,4 +1,4 @@
-# 8th Wall XR Sample App
+# 8th Wall XR Tutorial App
 
 # Overview
 
