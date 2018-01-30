@@ -28,7 +28,7 @@ Note: During installation, make sure you install **BOTH** Android & iOS build su
 * Android Build Support
 * iOS Build Support
 
-![Unity Component Selection](images/unity-component-selection.png)
+![Unity Component Selection](../8thWallXR-Tutorial/images/unity-component-selection.png)
 
 ## Open Unity Project
 
@@ -48,7 +48,7 @@ Add 8th Wall XR to your Unity project.  Locate the xr-<version>.unityplugin file
 
 Once finished, a window will display the contents of the XR package.  Leave all of the boxes checked and click "Import".
 
-![import-xr-unity-package](images/getting-started-import-xr-unity-package.png)
+![import-xr-unity-package](../8thWallXR-Tutorial/images/getting-started-import-xr-unity-package.png)
 
 ## Adjust Player Settings
 
@@ -58,29 +58,29 @@ Before you build the app, make sure to set a few things:
 
 Go to **Edit -> Project Settings -> Player**.  Enter in values for Company Name and Product Name
 
-![Player Settings 1](images/player-settings-1.png)
+![Player Settings 1](../8thWallXR-Tutorial/images/player-settings-1.png)
 
 Below, for all 3 tabs, enter in a Bundle Identifier:
 
-![Player Settings 2](images/player-settings-2.png)
+![Player Settings 2](../8thWallXR-Tutorial/images/player-settings-2.png)
 
 ## Adjust Player Settings
 
 Go to **File -> Build Settings** and click "Add Open Scenes".
 
-![Build Settings](images/build-settings.png)
+![Build Settings](../8thWallXR-Tutorial/images/build-settings.png)
 
 ## Build Application
 
 In this example we will be building for iOS.  Click "Build" and in the pop up window give the build a name.  Click Save to have Unity generate the XCode project.
 
-![Unity Build](images/unity-build.png)
+![Unity Build](../8thWallXR-Tutorial/images/unity-build.png)
 
 Once complete, a window will open up with the location of the code project.  Open it and double click "Unity-iPhone.xcodeproj" to open the XCode project.
 
-![XCode Project](images/xcode-project.png)
+![XCode Project](../8thWallXR-Tutorial/images/xcode-project.png)
 
 Inside XCode, make sure to set Team, then click Play to compile, install and run the app on your phone!
 
-![XCode Settings](images/xcode-settings.png)
+![XCode Settings](../8thWallXR-Tutorial/images/xcode-settings.png)
 
