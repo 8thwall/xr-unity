@@ -2,11 +2,10 @@
 
 # Overview
 
-A simple unity scene containing a table with a TV on top of it. Use as a base project to learn how to AR-enable after downloading the 8th Wall XR unity package.
-* [8th Wall XR - Demo](https://github.com/8thwall/xr-unity/tree/master/projects/8thWallXR-Demo) - The same scene as above, but preconfigured with all of the 8th Wall XR controllers added to scene objects. Just install the 8th Wall XR unity package and build!
-
 This sample application contains a simple scene consisting of a TV sitting on a table. The scene comes preconfigured with all of the 8th Wall XR controller scripts
 attached to the appropriate game objects.  Simply install 8th Wall XR and build!
+
+If you want to learn how to setup the scene yourself, please take a look at the full [Tutorial](https://github.com/8thwall/xr-unity/tree/master/projects/8thWallXR-Tutorial)
 
 The app shows how 8th Wall XR can:
 
