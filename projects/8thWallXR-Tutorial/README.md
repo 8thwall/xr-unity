@@ -49,7 +49,7 @@ Once finished, a window will display the contents of the XR package.  Leave all 
 
 ![import-xr-unity-package](images/getting-started-import-xr-unity-package.png)
 
-### Generate App Key
+## Generate App Key
 
 1. To create an app key, go to [https://console.8thwall.com](https://console.8thwall.com) and login. Select "Applications" from the left navigation and then click the **"+ Create a new App Key"** button:
 
@@ -63,7 +63,7 @@ Once finished, a window will display the contents of the XR package.  Leave all 
 
 Note: A bundle identifier is typically written in [reverse domain name notation](https://en.wikipedia.org/wiki/Reverse_domain_name_notation#Examples) and identifies your application in the app store. It should be unique.
 
-### Install App Key
+## Install App Key
 
 1. Select "Applications" from the left navigation.
 2. In the "Your App Keys" table, locate the row containing your App and its associated App Key. 
