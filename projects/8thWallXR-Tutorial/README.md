@@ -10,13 +10,9 @@ This sample application contains a simple scene consisting of a TV sitting on a 
 * Adjust the intensity of the scene light based on the lighting conditions in the world around you by adding an **XRLightController** to the light.
 * Place the table onto a detected surface by adding an **XRSurfaceController** to the table.
 
-**NOTE**: This project was created with Unity **2017.1.0f3**. If you are on an older version, it should still work, however the textures might not appear properly.
-
 ## Download Unity
 
 If you don't already have Unity installed, please download it from <a href='https://www.unity3d.com' target='_blank'>www.unity3d.com</a>
-
-Unity version **2017.1.0f3** or later is recommended. See note above.
 
 Note: During installation, make sure you install **BOTH** Android & iOS build support packages, even if you only plan to develop for one:
 
@@ -33,7 +29,7 @@ Open Unity and on the welcome screen, click "New" to create a new project.  Give
 
 ## Download the sample Unity app
 
-[Download](https://github.com/8thwall/xr-unity/blob/master/projects/8thWallXR-Tutorial/8thWallXR-TutorialApp.unitypackage?raw=true) a sample Unity project to augment with 8th Wall XR.
+[Download](https://github.com/8thwall/xr-unity/raw/master/projects/8thWallXR-Tutorial/8thWallXR-Tutorial.unitypackage) the sample Unity project to augment with 8th Wall XR.
 
 Double click on the .unitypackage file downloaded, and import all of the objects into the Unity project.  This sample application contains a simple scene (called "Main") consisting of a TV sitting on a table::
 
@@ -41,9 +37,9 @@ Double click on the .unitypackage file downloaded, and import all of the objects
 
 ## Download 8th Wall XR for Unity
 
-The 8th Wall XR Unity package is available here:
+If you don't already have an 8th Wall account, sign up for one.  It's free. Once logged in, the 8th Wall XR Unity package is available here:
 
-<a href='https://www.8thwall.com/#unity' target='_blank'>https://www.8thwall.com/#unity</a>
+<a href='https://console.8thwall.com/downloads' target='_blank'>https://console.8thwall.com/downloads</a>
 
 ## Install XR
 
@@ -52,6 +48,34 @@ Add 8th Wall XR to your Unity project.  Locate the xr-<version>.unityplugin file
 Once finished, a window will display the contents of the XR package.  Leave all of the boxes checked and click "Import".
 
 ![import-xr-unity-package](images/getting-started-import-xr-unity-package.png)
+
+### Generate App Key
+
+1. To create an app key, go to [https://console.8thwall.com](https://console.8thwall.com) and login. Select "Applications" from the left navigation and then click the **"+ Create a new App Key"** button:
+
+![CreateAppKey1](images/console-app-create1.png)
+
+2. Enter the bundle identifier of the application you’ll be creating, then click **"+ Create"**
+
+**IMPORTANT**: The bundle identifier entered will here needs to be identical to the bundle identifier in your Unity project.
+
+![CreateAppKey2](images/console-app-create2.png)
+
+Note: A bundle identifier is typically written in [reverse domain name notation](https://en.wikipedia.org/wiki/Reverse_domain_name_notation#Examples) and identifies your application in the app store. It should be unique.
+
+### Install App Key
+
+1. Select "Applications" from the left navigation.
+2. In the "Your App Keys" table, locate the row containing your App and its associated App Key. 
+3. Click the "Copy" button.
+
+![AddAppKey1](images/console-app-copy1.png)
+
+4. In Unity, select **Assets / XR / XRAppSettings**.  Paste your key into the **App Key** field.
+
+**IMPORTANT**: Make sure that the Bundle Identifier matches the bundle identifier you entered in Step #2.
+
+![AddAppKey2](images/console-app-copy2.png)
 
 ## Create an XRController
 
@@ -117,18 +141,6 @@ Select the "Screen" object in your scene and perform one of the following action
 ## Adjust Player Settings
 
 Before you build the app, make sure to set a few things:
-
-### Company Name and Product Name
-
-Go to **Edit -> Project Settings -> Player**.  Enter in values for Company Name and Product Name
-
-![Player Settings 1](images/player-settings-1.png)
-
-Below, for all 3 tabs, enter in a Bundle Identifier:
-
-![Player Settings 2](images/player-settings-2.png)
-
-## Adjust Player Settings
 
 Go to **File -> Build Settings** and click "Add Open Scenes".
 
