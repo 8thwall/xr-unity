@@ -50,19 +50,33 @@ Once finished, a window will display the contents of the XR package.  Leave all 
 
 ![import-xr-unity-package](../8thWallXR-Tutorial/images/getting-started-import-xr-unity-package.png)
 
-## Adjust Player Settings
+### Generate App Key
 
-Before you build the app, make sure to set a few things:
+1. To create an app key, go to [https://console.8thwall.com](https://console.8thwall.com) and login. Select "Applications" from the left navigation and then click the **"+ Create a new App Key"** button:
 
-### Company Name and Product Name
+![CreateAppKey1](../8thWallXR-Tutorial/images/console-app-create1.png)
 
-Go to **Edit -> Project Settings -> Player**.  Enter in values for Company Name and Product Name
+2. Enter the bundle identifier of the application you’ll be creating, then click **"+ Create"**
 
-![Player Settings 1](../8thWallXR-Tutorial/images/player-settings-1.png)
+**IMPORTANT**: The bundle identifier entered will here needs to be identical to the bundle identifier in your Unity project.
 
-Below, for all 3 tabs, enter in a Bundle Identifier:
+![CreateAppKey2](../8thWallXR-Tutorial/images/console-app-create2.png)
 
-![Player Settings 2](../8thWallXR-Tutorial/images/player-settings-2.png)
+Note: A bundle identifier is typically written in [reverse domain name notation](https://en.wikipedia.org/wiki/Reverse_domain_name_notation#Examples) and identifies your application in the app store. It should be unique.
+
+### Install App Key
+
+1. Select "Applications" from the left navigation.
+2. In the "Your App Keys" table, locate the row containing your App and its associated App Key. 
+3. Click the "Copy" button.
+
+![AddAppKey1](../8thWallXR-Tutorial/images/console-app-copy1.png)
+
+4. In Unity, select **Assets / XR / XRAppSettings**.  Paste your key into the **App Key** field.
+
+**IMPORTANT**: Make sure that the Bundle Identifier matches the bundle identifier you entered in Step #2.
+
+![AddAppKey2](../8thWallXR-Tutorial/images/console-app-copy2.png)
 
 ## Adjust Player Settings
 
