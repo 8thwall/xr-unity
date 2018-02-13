@@ -11,8 +11,8 @@
 
 # Resources
 
-* [Download 8th Wall XR for Unity](https://releases.8thwall.com/xr/unity/download/release)
-* [Documentation](https://docs.8thwall.com/xr/unity/)
+* [Download 8th Wall XR for Unity](https://console.8thwall.com/downloads)
+* [Documentation](https://docs.8thwall.com/)
 * [8th Wall Website](https://www.8thwall.com)
 
 # Sample Unity Projects
