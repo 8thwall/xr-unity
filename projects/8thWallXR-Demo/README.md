@@ -73,6 +73,7 @@ Note: A bundle identifier is typically written in [reverse domain name notation]
 ![AddAppKey1](../8thWallXR-Tutorial/images/console-app-copy1.png)
 
 4. In Unity, select **Assets / XR / XRAppSettings**.  Paste your key into the **App Key** field.
+5. **IMPORTANT**: Go to File -> Save Project to save these settings.
 
 **IMPORTANT**: Make sure that the Bundle Identifier matches the bundle identifier you entered in Step #2.
 
