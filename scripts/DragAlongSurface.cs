@@ -3,21 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DragAlongSurface : MonoBehaviour {
-
   private bool holding;
 
-	void Start () {
-		holding = false;
-	}
-	
-  void Update() {
+  void Start () {
+    holding = false;
+  }
 
-		if (holding) {
-			Move();
-		}
+  void Update() {
+    if (holding) {
+      Move();
+    }
 
     // One finger
-		if (Input.touchCount == 1) {
+    if (Input.touchCount == 1) {
 
       // Tap on Object
       if (Input.GetTouch(0).phase == TouchPhase.Began ) {
@@ -38,7 +36,7 @@ public class DragAlongSurface : MonoBehaviour {
     }
   }
 
-	void Move(){
+  void Move() {
     RaycastHit hit;
     Ray ray = Camera.main.ScreenPointToRay (Input.GetTouch (0).position);
     // The GameObject with an XRSurfaceController attached should be on layer "Surface"
@@ -47,5 +45,5 @@ public class DragAlongSurface : MonoBehaviour {
                                       transform.position.y,
                                       hit.point.z);
     }
-	}
+  }
 }
