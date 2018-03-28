@@ -19,6 +19,7 @@ public class MeshVisualizer : MonoBehaviour {
   private class LineWithRenderer {
     public readonly GameObject line;
     public readonly LineRenderer renderer;
+    
     public LineWithRenderer() {
       line = new GameObject();
       renderer = line.AddComponent<LineRenderer>();
@@ -28,6 +29,7 @@ public class MeshVisualizer : MonoBehaviour {
       renderer.startWidth = LINE_WIDTH;
       renderer.endWidth = LINE_WIDTH;
     }
+
     public void RenderLine(Vector3 v0, Vector3 v1) {
       renderer.SetPosition(0, v0);
       renderer.SetPosition(1, v1);
@@ -112,11 +114,10 @@ public class MeshVisualizer : MonoBehaviour {
     meshRenderer.enabled = false;
   }
 
-	void Update () {
+  void Update () {
     if (meshFilter.mesh == null || meshFilter.mesh.vertices.Length == 0) {
       return;
     }
-
     RenderMesh(meshFilter.mesh);
   }
 }
