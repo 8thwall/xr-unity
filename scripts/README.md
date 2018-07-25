@@ -1,15 +1,15 @@
 # Scripts
 
-* DragAlongSurface.cs - Tap on an object and drag to move it along a surface
-* MeshVisualizer.cs - Displays the mesh of an object.  Attach to the same object that has an XRSurfaceController, and enable "Deform To Surface" to visualize the shape of the detected surface"
-* PlaceObject.cs - Tap to place an object in your scene.  If tap hits a surface, object will be placed on surface.  If not, it will be placed at touch point at a specified distance in front of the camera.
-* SunlightController.cs - A script that controls the rotation of a Directional Light in your scene based on the position of the sun. Makes AR shadows look more realistic by aligning their direction with real world shadows outside.
-* WorldPointsRenderer.cs - Visualize detected WorldPoints in your scene. Attach to any game object.
-* XRImageDetectionController.cs - Script that makes it easy to define a set of image targets to detect.
-* XRImageDetectionTargetController.cs - Attach this to the game object you want to be anchored/triggered when a tracked image it detected.
+* [DragAlongSurface.cs](https://github.com/8thwall/xr-unity/tree/master/scripts/DragAlongSurface.cs) - Tap on an object and drag to move it along a surface
+* [MeshVisualizer.cs](https://github.com/8thwall/xr-unity/blob/master/scripts/MeshVisualizer.cs) - Displays the mesh of an object.  Attach to the same object that has an XRSurfaceController, and enable "Deform To Surface" to visualize the shape of the detected surface"
+* [PlaceObject.cs](https://github.com/8thwall/xr-unity/tree/master/scripts/PlaceObject.cs) - Tap to place an object in your scene.  If tap hits a surface, object will be placed on surface.  If not, it will be placed at touch point at a specified distance in front of the camera.
+* [SunlightController.cs](https://github.com/8thwall/xr-unity/tree/master/scripts/SunlightController.cs) - A script that controls the rotation of a Directional Light in your scene based on the position of the sun. Makes AR shadows look more realistic by aligning their direction with real world shadows outside.
+* [WorldPointsRenderer.cs](https://github.com/8thwall/xr-unity/tree/master/scripts/WorldPointsRenderer.cs) - Visualize detected WorldPoints in your scene. Attach to any game object.
+* [XRImageDetectionController.cs](https://github.com/8thwall/xr-unity/blob/master/scripts/XRImageDetectionController.cs) - Script that makes it easy to define a set of image targets to detect.
+* [XRImageDetectionTargetController.cs](https://github.com/8thwall/xr-unity/blob/master/scripts/XRImageDetectionTargetController.cs) - Attach this to the game object you want to be anchored/triggered when a tracked image it detected.
 
 
-## XRImageDetectionController Example
+# XRImageDetectionController Example
 
 This example simply moves a specified game object to the location of the detected image, but could be customized to achieve different behavior.
 
@@ -61,6 +61,4 @@ Attach XRImageDetectionTargetController.cs to the game object you wish to "ancho
 
 **Result**
 
-<div class='youtube'>
-  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/EvFisEJEHsY" frameborder="0" marginwidth='10' allowfullscreen></iframe>
-</div>
+![ImageDetectionVideo](https://img.youtube.com/vi/EvFisEJEHsY/0.jpg)](https://www.youtube.com/watch?v=EvFisEJEHsY)
