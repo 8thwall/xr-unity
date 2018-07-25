@@ -59,6 +59,6 @@ Attach XRImageDetectionTargetController.cs to the game object you wish to "ancho
 
 ![XRImageDetectionTargetControllerConfig2](../images/image-detection-6.png)
 
-**Result**
+**Result (Video)**
 
-![ImageDetectionVideo](https://img.youtube.com/vi/EvFisEJEHsY/0.jpg)](https://www.youtube.com/watch?v=EvFisEJEHsY)
+![ImageDetectionVideo](https://img.youtube.com/vi/EvFisEJEHsY/0.jpg)
