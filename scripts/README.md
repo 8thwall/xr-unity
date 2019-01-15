@@ -1,5 +1,6 @@
 # Scripts
 
+* [AndroidCameraPermissions.cs](https://github.com/8thwall/xr-unity/tree/master/scripts/AndroidCameraPermissions.cs) - Starting with Unity 2018.3, Android apps no longer automatically request camera permissions. This is a very basic example that checks if your app has camera permissions, and if not, requests them.  Attach this to a gameObject in your scene.
 * [DragAlongSurface.cs](https://github.com/8thwall/xr-unity/tree/master/scripts/DragAlongSurface.cs) - Tap on an object and drag to move it along a surface
 * [MeshVisualizer.cs](https://github.com/8thwall/xr-unity/blob/master/scripts/MeshVisualizer.cs) - Displays the mesh of an object.  Attach to the same object that has an XRSurfaceController, and enable "Deform To Surface" to visualize the shape of the detected surface"
 * [PlaceObject.cs](https://github.com/8thwall/xr-unity/tree/master/scripts/PlaceObject.cs) - Tap to place an object in your scene.  If tap hits a surface, object will be placed on surface.  If not, it will be placed at touch point at a specified distance in front of the camera.
