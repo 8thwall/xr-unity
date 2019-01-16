@@ -139,6 +139,20 @@ Select the "Screen" object in your scene and perform one of the following action
 
 ![XRVideoTextureController Setup](images/xr-video-texture-controller.png)
 
+## Unity 2018 and Android Camera Permissions
+
+**IMPORTANT**: Unity made a change in 2018.3 where Android apps no longer automatically request camera permissions. Android permissions (camera, microphone, location, etc) are now controlled by a new API.
+
+More information can be found here:
+https://docs.unity3d.com/2018.3/Documentation/Manual/android-RequestingPermissions.html
+
+If you are building for Android and using Unity 2018.3 (or newer) you'll need to add a script that checks if your app has camera permissions, and
+if not, requests them.  
+
+Inside the "Scripts/" directory, you'll see a script called **AndroidCameraPermissions.cs**. In this screenshot we attach it to the Main Camera, but any game object should work.
+
+![AndroidCameraPermissions](images/android-camera-permissions.png)
+
 ## Adjust Player Settings
 
 Before you build the app, make sure to set a few things:
