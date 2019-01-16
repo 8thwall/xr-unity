@@ -35,6 +35,12 @@ ProjectVersion.txt
 # Unity generated file on crash reports
 sysinfo.txt
 
+# 8th Wall XR for Unity related directories
+XR/
+XR.meta
+Plugins/
+Plugins.meta
+
 # OSX
 .DS_Store
 

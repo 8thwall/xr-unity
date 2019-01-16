@@ -15,13 +15,13 @@ The app shows how 8th Wall XR can:
 * Adjust the intensity of the scene light based on the lighting conditions in the world around you by adding an **XRLightController** to the light.
 * Place the table onto a detected surface by adding an **XRSurfaceController** to the table.
 
-**NOTE**: This project was created with Unity **2017.1.0f3**. If you are on an older version, it should still work, however the textures might not appear properly.
+**NOTE**: This project was created with Unity **2017.1**. If you are on an older version, it should still work, however the textures might not appear properly.
 
 ## Download Unity
 
 If you don't already have Unity installed, please download it from <a href='https://www.unity3d.com' target='_blank'>www.unity3d.com</a>
 
-Unity version **2017.1.0f3** or later is recommended. See note above.
+Unity version **2017.1** or later is recommended. See note above.
 
 Note: During installation, make sure you install **BOTH** Android & iOS build support packages, even if you only plan to develop for one:
 
